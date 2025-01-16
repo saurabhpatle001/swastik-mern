@@ -1,0 +1,65 @@
+/* General Styling for Popular Section */
+.popular {
+    padding: 50px 30px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(240, 240, 240, 0.8));
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 1200px;
+  }
+  
+  /* Title Styling */
+  .popular-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  
+  /* Horizontal Rule Styling */
+  .popular-divider {
+    width: 80px;
+    border: 2px solid #ff7f50;
+    margin: 20px auto;
+  }
+  
+  /* Item Container Styling */
+  .popular-item-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  /* Hover Effect for Items */
+  .popular-item-container .item {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  }
+  
+  .popular-item-container .item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Mobile View Adjustments */
+  @media (max-width: 768px) {
+    .popular {
+      padding: 40px 20px;
+    }
+  
+    .popular-title {
+      font-size: 2rem;
+    }
+  
+    .popular-divider {
+      width: 60px;
+    }
+  
+    .popular-item-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  

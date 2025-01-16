@@ -1,0 +1,95 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    background: linear-gradient(135deg, #f7f9fc, #eaf1f7);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Left Section */
+  .hero-left {
+    flex: 1;
+    color: #333;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-hand-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .new-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #e74c3c;
+    margin-right: 0.5rem;
+  }
+  
+  .hero-hand-icon img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Call-to-Action Button */
+  .hero-latest-btn .cta-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.8rem 2rem;
+    background-color: #2980b9;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hero-latest-btn .cta-button:hover {
+    background-color: #3498db;
+  }
+  
+  .hero-latest-btn img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Right Section */
+  .hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  

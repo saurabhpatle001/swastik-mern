@@ -1,0 +1,124 @@
+.newsletter-container {
+  background-color: rgb(22, 210, 169);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.newsletter {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.newsletter h1 {
+  color: #343a40;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.newsletter p {
+  color: #6c757d;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.newsletter-form input {
+  flex-grow: 1;
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 1rem;
+  min-width: 200px;
+}
+
+.newsletter-form button {
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color: #0b5ed7;
+}
+
+.success-message {
+  text-align: center;
+}
+
+.success-icon {
+  width: 50px;
+  height: 50px;
+  fill: #28a745;
+  margin-bottom: 15px;
+}
+
+.success-message h2 {
+  color: #28a745;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.success-message p {
+  color: #6c757d;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .newsletter {
+      padding: 20px;
+  }
+
+  .newsletter h1 {
+      font-size: 1.8rem;
+  }
+
+  .newsletter p {
+      font-size: 0.9rem;
+  }
+
+  .newsletter-form input {
+      padding: 10px;
+      font-size: 0.9rem;
+  }
+
+  .newsletter-form button {
+      padding: 10px 15px;
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .newsletter h1 {
+      font-size: 1.5rem;
+  }
+
+  .newsletter p {
+      font-size: 0.8rem;
+  }
+
+  .newsletter-form input {
+      padding: 8px;
+      font-size: 0.8rem;
+  }
+
+  .newsletter-form button {
+      padding: 8px 12px;
+      font-size: 0.8rem;
+  }
+}

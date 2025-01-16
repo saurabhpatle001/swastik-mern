@@ -1,0 +1,62 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .new-collections {
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #f9fafc, #eaeff5);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  
+  /* Title Section */
+  .collections-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+  
+  .collections-title span {
+    color: #2980b9;
+  }
+  
+  .collections-subtitle {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 1.5rem;
+  }
+  
+  .collections-divider {
+    width: 10%;
+    margin: 0 auto 2rem;
+    border: none;
+    height: 2px;
+    background-color: #2980b9;
+  }
+  
+  /* Grid Layout */
+  .collections-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+    justify-items: center;
+    align-items: start;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .collections-title {
+      font-size: 2rem;
+    }
+  
+    .collections-subtitle {
+      font-size: 0.9rem;
+    }
+  }
+  

@@ -1,0 +1,60 @@
+.breadcrums {
+    background: linear-gradient(135deg, #f9f9f9, #eceff1);
+    padding: 15px 20px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .breadcrums-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .breadcrums-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .breadcrums-item.active {
+    color: #007bff;
+    font-weight: 700;
+  }
+  
+  .breadcrums-item:hover {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .breadcrums-separator {
+    color: #999;
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .breadcrums {
+      font-size: 0.9rem;
+      padding: 10px 15px;
+    }
+  
+    .breadcrums-container {
+      gap: 5px;
+    }
+  
+    .breadcrums-item {
+      font-size: 0.85rem;
+    }
+  
+    .breadcrums-separator {
+      font-size: 1rem;
+    }
+  }
+  
