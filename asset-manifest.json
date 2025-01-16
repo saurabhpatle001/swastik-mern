@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/swastik-mern/static/css/main.54437893.css",
+    "main.js": "/swastik-mern/static/js/main.5c675ac8.js",
+    "static/media/hero_image.png": "/swastik-mern/static/media/hero_image.004d8c6e1da365493f97.png",
+    "static/media/banner_kids.png": "/swastik-mern/static/media/banner_kids.fff815a581793a7380fb.png",
+    "static/media/banner_women.png": "/swastik-mern/static/media/banner_women.5a27fc4e4533e57e4676.png",
+    "static/media/banner_mens.png": "/swastik-mern/static/media/banner_mens.eed7197157196f319b17.png",
+    "static/media/exclusive_image.png": "/swastik-mern/static/media/exclusive_image.e8118f2149d9cb916980.png",
+    "static/media/hand_icon.png": "/swastik-mern/static/media/hand_icon.9c7487cecb600f30901b.png",
+    "index.html": "/swastik-mern/index.html",
+    "main.54437893.css.map": "/swastik-mern/static/css/main.54437893.css.map",
+    "main.5c675ac8.js.map": "/swastik-mern/static/js/main.5c675ac8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54437893.css",
+    "static/js/main.5c675ac8.js"
+  ]
+}
